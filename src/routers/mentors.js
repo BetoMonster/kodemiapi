@@ -69,7 +69,7 @@ router.patch('/:id', async (request, response)=>{
 
 router.delete('/:id', async (request, response)=>{
     try{
-        const deletedMentor = await mentors.deleteById(request.params.id, request.body)
+        const deletedMentor = await mentors.deleteById(request.params.id)
         response.json({ 
             success: true,
             message: 'Mentor deleted :)',
