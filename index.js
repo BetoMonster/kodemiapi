@@ -16,6 +16,7 @@ dbConnect()
 
 
 // GET /koders
+
 // 1. Crear el modelo necesario(koders)
 // 2. Crear el caso de uso necesario
 // 3. Crear el Endpoint necesario
@@ -24,7 +25,23 @@ dbConnect()
 Practica:
 - POST /koders
 - DELETE /koders/:id  koders.findByIdAndDelete(id)
+- PATCH /koders/:id
+
 */ 
 
+/*
+Practica:
+- GET /mentores
+- POST /mentores
+- DELETE /mentores/:id  
+- PATCH /mentores/:id
 
+Mentors
+  - name
+  - lastName
+  - age
+  - gender
+  - modulo [ 'front', 'back', 'cloud', 'react' ]
+
+*/ 
 
