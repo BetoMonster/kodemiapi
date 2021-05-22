@@ -45,3 +45,13 @@ Mentors
 
 */ 
 
+/*
+Practica 
+
+Middleware que loggea las peticiones
+
+[Metodo] [Ruta] [body]
+GET /koders { }
+POST /mentores {name}
+
+*/
